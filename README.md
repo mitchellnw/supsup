@@ -9,7 +9,7 @@ Blog post: <a href="https://mitchellnw.github.io/blog/2020/supsup/"> https://mit
 
 ## Simple one-file notebook example
 
-We have added `mnist.ipynb` as a self-contained example of the GG and GNs scenarios. It runs well on CPUs!
+We have added `mnist.ipynb` as a self-contained example of the GG and GNs scenarios. It runs well without GPUs!
 
 ## General directory structure
 
