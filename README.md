@@ -14,7 +14,11 @@ We have added `mnist.ipynb` as a self-contained example of the GG and GNs scenar
 ## General directory structure
 
 - `data/` contains all of our dataset declarations. Each dataset object has a `train_loader`, `val_loader`, and an `update_task` method, all used elsewhere in our code. The `update_task` method takes an integer and changes the `train_loader` and `val_loader` variables to the appropriate enumerated task.
-- `models/` contains model declarations. If would you like to build your own, use the `builder.convX` methods so that your model uses the appropriate convolution type.
+- `models/` contains model declarations in associated files (`resnet`, ). If would you like to build your own, use the {`builder.conv1x1`, `builder.conv3x3` etc.} methods so that your model uses the appropriate convolution type declared by the `--conv-type` flag. See an existing model file for details.
+    - `small.py` contains small models used in GNu and NNs experiments.
+    - `gemresnet.py` contains a smaller version of ResNet-20 used in the GG SplitCIFAR100 experiments.
+    - `resnet.py` contains the standard ResNet architecures for our GG SplitImageNet experiments.
+    - `modules.py` contains layers used in our experiments. In particular, we use `FastMultitaskMaskConv` for GNu and NNs experiments and `MultitaskMaskConv` for GG experiments.
 - `trainers/` contains model trainers for different scenarios. 
     - `default.py` is a simple classification setup, used for GG, GNu, and GNs
     - `nns.py` is used for the NNs scenario
