@@ -2,7 +2,10 @@
 
 Mitchell Wortsman<sup>\*</sup>, Vivek Ramanujan<sup>\*</sup>, Rosanne Liu, Aniruddha Kembhavi, Mohammad Rastegari, Jason Yosinski, Ali Farhadi  
 
+Blog post: <a href="https://mitchellnw.github.io/blog/2020/supsup/"> https://mitchellnw.github.io/blog/2020/supsup </a>
+
 <img src="images/teaser_supsup.png">
+
 
 ## Simple one-file notebook example
 
