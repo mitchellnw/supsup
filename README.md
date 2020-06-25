@@ -1,4 +1,4 @@
-# Supermasks in Superposition for Continual Learning
+# Supermasks in Superposition
 
 Mitchell Wortsman<sup>\*</sup>, Vivek Ramanujan<sup>\*</sup>, Rosanne Liu, Aniruddha Kembhavi, Mohammad Rastegari, Jason Yosinski, Ali Farhadi  
 
