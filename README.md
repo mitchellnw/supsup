@@ -1,6 +1,24 @@
 # Supermasks in Superposition for Continual Learning
 
-Code for running experiments is located in the `/experiments` folder and grouped by GG, GNu, and NNs in accordance with our paper's hierarchy. 
+Mitchell Wortsman<sup>\*</sup>, Vivek Ramanujan<sup>\*</sup>, Rosanne Liu, Aniruddha Kembhavi, Mohammad Rastegari, Jason Yosinski, Ali Farhadi  
+
+<img src="images/teaser_supsup.png">
+
+## Simple one-file notebook example
+
+We have added `mnist.ipynb` as a self-contained example of the GG and GNs scenarios. It runs well on CPUs!
+
+## General directory structure
+
+- `data/` contains all of our dataset declarations. Each dataset object has a `train_loader`, `val_loader`, and an `update_task` method, all used elsewhere in our code. The `update_task` method takes an integer and changes the `train_loader` and `val_loader` variables to the appropriate enumerated task.
+- `models/` contains model declarations. If would you like to build your own, use the `builder.convX` methods so that your model uses the appropriate convolution type.
+- `trainers/` contains model trainers for different scenarios. 
+    - `default.py` is a simple classification setup, used for GG, GNu, and GNs
+    - `nns.py` is used for the NNs scenario
+    - `reinit.py` is used for the Transfer experiment in Figure 3 (right).
+
+
+Code for running experiments is located in the `experiments/` folder and grouped by GG, GNu, and NNs in accordance with our paper's hierarchy. 
 
 ## Environment set-up
 
