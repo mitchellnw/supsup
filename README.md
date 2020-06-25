@@ -19,9 +19,7 @@ We have added `mnist.ipynb` as a self-contained example of the GG and GNs scenar
     - `default.py` is a simple classification setup, used for GG, GNu, and GNs
     - `nns.py` is used for the NNs scenario
     - `reinit.py` is used for the Transfer experiment in Figure 3 (right).
-
-
-Code for running experiments is located in the `experiments/` folder and grouped by GG, GNu, and NNs in accordance with our paper's hierarchy. 
+- `experiments/` contains code for running experiments, grouped into `GG/`, `GNu/`, and `NNs/` in accordance with our paper's hierarchy.
 
 ## Environment set-up
 
@@ -43,7 +41,7 @@ The `experiments/GG/splitcifar100/` folder contains the following experiment scr
 
 The `splitimagenet/` folder contains one experiment script:
 
-`experiments/GG/splitimagenet/rn50-supsup.py` -> Corresponds to all 3 runs of _Sup Sup_ in Figure 3 (left)
+1. `experiments/GG/splitimagenet/rn50-supsup.py` -> Corresponds to all 3 runs of _Sup Sup_ in Figure 3 (left)
 
 The actual settings for these experiments (e.g. hyperparameters) are stored in `experiments/GG/splitcifar100/configs` and `experiments/GG/splitimagenet/configs`
 
