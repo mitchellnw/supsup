@@ -4,6 +4,8 @@ Mitchell Wortsman<sup>\*</sup>, Vivek Ramanujan<sup>\*</sup>, Rosanne Liu, Aniru
 
 Blog post: <a href="https://mitchellnw.github.io/blog/2020/supsup/"> https://mitchellnw.github.io/blog/2020/supsup </a>
 
+This is not the official Repo! Please go to [https://github.com/RAIVNLab/supsup](https://github.com/RAIVNLab/supsup).
+
 <img src="images/teaser_supsup.png">
 
 
